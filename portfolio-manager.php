@@ -24,7 +24,7 @@ function pm_enqueue_admin_assets($hook) {
         return;
     }
 
-    wp_enqueue_media(); // Nodig voor uploader
+    wp_enqueue_media();
     wp_enqueue_script(
         'pm-admin-script',
         plugin_dir_url(__FILE__) . 'assets/script.js',
