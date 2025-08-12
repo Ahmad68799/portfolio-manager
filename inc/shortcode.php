@@ -12,7 +12,7 @@
         'orderby' => 'date',
         'order' => strtoupper($atts['order']) === 'ASC' ? 'ASC' : 'DESC',
     ];
-
+//i
 // Als category is meegegeven, filter dan op taxonomie
     if (!empty($atts['category'])) {
         $args['tax_query'] = [
