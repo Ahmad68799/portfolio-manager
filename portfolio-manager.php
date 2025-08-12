@@ -19,7 +19,7 @@ function pm_enqueue_assets() {
 add_action('wp_enqueue_scripts', 'pm_enqueue_assets');
 
 function pm_enqueue_admin_assets($hook) {
-    // Alleen op project toevoegen/bewerken pagina
+    // Alleen op project toevoegen/bewerken pagina.
     if ($hook !== 'post-new.php' && $hook !== 'post.php') {
         return;
     }
