@@ -17,7 +17,7 @@ Filteren kan met parameters zoals `category` en `order`.
 - Gebruik shortcode filters zoals `[portfolio_projects category="webdesign" order="desc"]`.
 
 ## Veelgestelde vragen
-**Verwijdert de plugin mijn projecten bij de-installatie?**  
+*Verwijdert de plugin mijn projecten bij de-installatie?**  
 Nee, de projecten blijven bewaard in de database.
 
 ## Changelog
@@ -26,3 +26,4 @@ Nee, de projecten blijven bewaard in de database.
 
 ## Credits
 Gemaakt door [Ahmad Eknan] als stageopdracht.
+
