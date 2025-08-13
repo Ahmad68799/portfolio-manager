@@ -12,8 +12,8 @@
         'orderby' => 'date',
         'order' => strtoupper($atts['order']) === 'ASC' ? 'ASC' : 'DESC',
     ];
-//i
-// Als category is meegegeven, filter dan op taxonomie
+
+
     if (!empty($atts['category'])) {
         $args['tax_query'] = [
             [
@@ -77,3 +77,4 @@ echo '<p>Geen projecten gevonden.</p>';
 return ob_get_clean();
 }
 add_shortcode('portfolio_projects', 'portfolio_projects_shortcode');
+    // nieuw commit
