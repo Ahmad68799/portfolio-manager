@@ -52,4 +52,4 @@ function pm_register_project_post_type() {
     register_post_type('project', $args);
 }
 add_action('init', 'pm_register_project_post_type');
-// nieuw commit
+//nieuw commit
