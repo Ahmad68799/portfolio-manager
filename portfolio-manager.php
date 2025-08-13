@@ -17,14 +17,14 @@ function pm_enqueue_assets() {
     wp_enqueue_script('pm-script', plugin_dir_url(__FILE__) . 'assets/script.js', [], false, true);
 }
 add_action('wp_enqueue_scripts', 'pm_enqueue_assets');
-
+// nieuw commit
 function pm_enqueue_admin_assets($hook) {
-    // Alleen op project toevoegen/bewerken pagina
+    // Alleen op project toevoegen/bewerken pagina.
     if ($hook !== 'post-new.php' && $hook !== 'post.php') {
         return;
     }
 
-    wp_enqueue_media(); // Nodig voor uploader
+    wp_enqueue_media();
     wp_enqueue_script(
         'pm-admin-script',
         plugin_dir_url(__FILE__) . 'assets/script.js',
